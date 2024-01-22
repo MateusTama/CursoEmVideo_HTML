@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* 
+    HTML = ID. CSS = # 
+    HTML = CLASS. CSS = .
+*/
+
+body {
+    background-color: rgba(244, 152, 152, 0.918);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(41, 35, 35);
+}
+
+h2 {
+    color: rgb(98, 68, 68);
+}
+
+p {
+    color: rgb(2, 2, 38);
+}
+
+/* Hierarquias */
+/* ID sobrepõe a classe (ID > CLASS) */
+/* Usar um ID apenas 1 vez em um documento HTML */
+
+#titulo {
+    text-align: center;
+    background-color: gray;
+}
+
+/* 
+h1#titulo {
+    text-align: center;
+}
+
+*/
+
+/* Um elemento pode ter mais de 1 classe */
+
+.basico{
+    color: rgba(246, 4, 4, 0.694);
+}
+
+.intermediario {
+    color: rgba(20, 203, 20, 0.79);
+}
+
+.avancado {
+    color: rgba(0, 0, 255, 0.648);
+}
+
+.destaque {
+    background-color: rgba(255, 255, 0, 0.785);
+}

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* Comentário em CSS */
+/* Declaração - 
+propriedade: valor; */
+h1 {
+    color: blue;         
+    background-color: black;       
+}
+
+h2 {
+    color: yellow;
+}
+
+p {
+    text-align: justify;
+}

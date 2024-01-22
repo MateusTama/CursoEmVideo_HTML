@@ -1,0 +1,59 @@
+<!-- Medidas Absolutas: 
+
+	cm, mm, in, px, pt, pc
+
+Medidas Relativas:
+            
+	em	->	relativo ao tamanho natural da fonte (16px)
+	ex	->	relativo a altura x da fonte
+	rem	->	tipo em, mas relativo a fonte configurada no body
+	vw	->	relativo a largura da view port
+	vh	->	relativo a altura da view port
+	%	->	porcentagem
+
+Recomendação w3c:  "px" ou "em"
+
+Altura padrão:  16px ou 1em -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            /* 'Courier New' entre aspas (duas palavras) */
+            /* CSS safe font combinations */
+            /* Nomes Genéricos, como: sans-serif, serif, monospace, etc */
+            font-family: Arial, Helvetica, sans-serif;
+            /* PESOS */
+            /* lighter, normal, bold, bolder | 100-900 */
+            font-weight: normal;
+            /* ESTILO */
+            font-style: normal; /* ou italic */
+            /* SUBLINHADO */
+            text-decoration: underline;
+            font-size: 1em;
+        }
+
+        h1 {
+            font: normal bolder 2em helvetic;
+        }
+
+        h2 {
+            /* SHORTHAND FONT
+            font-style | font-weight | font-size | font-family
+            */
+            font: italic bolder 2em serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, excepturi ipsam dolorum enim eius veniam error dolorem eligendi possimus dolores blanditiis, nihil nemo? Quae fuga tempora quia et, doloremque impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo delectus possimus dolorem error omnis magnam, reiciendis hic sequi cupiditate totam optio incidunt cumque aliquid nobis tempore amet non doloribus quidem?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, vero aut? Numquam porro nobis quisquam fugit, blanditiis natus ipsum maxime quasi aperiam accusantium quas doloremque, corrupti itaque quod error saepe.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut illum aut, commodi nostrum voluptatem cum adipisci illo optio pariatur maxime, dicta eum distinctio aperiam, exercitationem quisquam temporibus veritatis quod dignissimos!</p>
+</body>
+</html>

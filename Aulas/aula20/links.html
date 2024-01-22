@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+            # = id
+            . = class
+            : = pseudo-classes
+            :: = pseudo-elementos
+            > = children (filho)
+        */
+
+
+        /* Pseudo classe = influenciam no estado do elemento HTML (:)*/
+        /* Pseudo elementos = influenciam no conteúdo do elemento HTML (::)*/
+
+        /* Todos os links com a mesma cor, até os anteriormente visitados */
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        /* Links já visitados ficam com a cor vermelho escuro */
+        /* Pseudo-classe visited */
+        a:visited{
+            color: darkred;
+        }
+
+        /* Passar o mouse em cima */
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        
+        /* Quando clicamos em cima */
+        a:active {
+            color: blue;
+        }
+        
+        /* Pseudo-elemento = antes */
+        a::after{
+            content: ' [sou um link]';
+            color: black;
+        }
+
+        /* Pseudo-elemento = depois */
+        a::before{
+            content: ' [sou um link]';
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/MateusTama" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com">Site do Curso Em Video</a></li>
+    </ul>
+</body>
+</html>

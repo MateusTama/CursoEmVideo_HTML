@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Abra esse site em dispositivos diferentes ou diminua o tamanho do seu navegador</p>
+    <picture> <!--source:media:type-->
+        <!-- ordem de tamanho, menor para maior -->
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+    <audio src="midia/peachy-half.cool.mp3" controls autoplay></audio>
+    <!-- MP3 WAV OGG -->
+    
+    <!-- Melhor forma -->
+
+    <audio preload="metadata" autoplay controls loop> <!-- auto, metadata, none. -->
+        <!-- auto = padrão; carrega o áudio inteiro. metadata = carrega algumas informações (duração) e o aúdio só após dar play. none = não carrega nenhuma informação -->
+        <source src="midia/peachy-half.cool.mp3" type="audio/mpeg">
+        <source src="midia/peachy-half.cool.ogg" type="audio/ogg">
+        <source src="midia/peachy-half.cool.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não é compatível com áudio. <a href="midia/peachy-half.cool.mp3">Clique Aqui</a> para baixar o MP3</p>
+    </audio>
+</body>
+</html>

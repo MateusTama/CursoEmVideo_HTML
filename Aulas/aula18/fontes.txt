@@ -1,0 +1,2 @@
+Fonts Ninja = Detectar fontes em sites
+whatfontis.com; fontsquirrel.com; myfonts.com = Detectar fontes em imagens
