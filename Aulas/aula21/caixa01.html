@@ -4,6 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Model Box</title>
+    <style>
+        h1 { /* box-level */
+            /* display: block; */
+            background-color: yellow;
+
+            /* SIZE */
+
+            width: 300px;
+            height: 300px;
+
+            /* BORDER */
+
+            /* Border-width, border-style e border-color */
+            border: 10px solid red;
+
+            /* PADDING */
+
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+
+            /* Sentido Horário */
+            /* padding: 10px 10px 10px 10px; */
+
+            padding: 10px;
+
+            /* MARGIN */
+            
+            /* 
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            */
+
+            /* margin: 10px 10px 10px 10px; */
+
+            /* Centralizar no meio (serve para caixas). Para textos utilizar o text-align: center; */
+            margin: auto; 
+
+            /* margin: 10px auto 20px auto */
+
+            /* OUTLINE */
+
+            /* Dentro do margin */
+            /*
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: blue;
+            */
+
+            outline: 5px dashed blue;
+        }
+
+        /* border-style: dashed; = tracejada, border-style: dotted; = pontilhada, border-style: double; = linha dupla, border-style: groove; = tridimensional (semelhante a uma moldura) */
+        a { /* inline-level */
+            /* display: inline; */
+            border: 10px solid green;
+        }
+        /* display: inline-block; = inline porém assumo características de bloco como width e height */
+    </style>
 </head>
 <body>
     <!-- H1 é box-level -->
