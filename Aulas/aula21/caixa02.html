@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> <!--Cabeça-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            margin: 0px;
+            background-color: darkgray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        header {
+            background-color: white;
+        }
+        header > h1 {
+            margin: 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header > nav {
+            text-align: center;
+            background-color: black;
+            padding: 8px;
+        }
+
+        header > nav > a {
+            text-decoration: none;
+            color: white;
+            margin: 30px;
+            font-weight: bold;
+        }
+
+        header > nav > a:hover{
+            color: blue;
+            transition: 0.1s;
+            font-size: 1.1em;
+            text-decoration: underline;
+        }
+        main {
+            margin: 30px;
+        }
+
+        main > section > article > p {
+            text-align: justify;
+        }
+
+        footer{
+            background-color: black;
+            text-align: center;
+        }
+        footer p{
+            padding: 8px;
+            color: white;
+        }
+
+        footer > p > span{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Box-Level -->
+    <!-- <div></div> -->
+    <!-- Inline-Level -->
+    <!-- <span></span> -->
+    <header> <!--Cabeçalho-->
+        <h1>Logo da empresa</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <h2>Notícias</h2>
+            <article>
+                <h3>Enchentes</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, pariatur qui. Doloremque eius repellendus, accusantium eaque porro sequi ex et maiores labore ipsum mollitia cupiditate, ipsa voluptate, sit autem provident.</p>
+                <aside>
+                    <p>Notícia: globo.com.br</p>
+                </aside>
+            </article>
+        </section>
+        <section id="artigos">
+            <h2>Artigos</h2>
+            <article>
+                <h3>Benefícios do exercício físico</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque cumque illo iure natus reiciendis. Blanditiis odio numquam autem ducimus eum, rerum fugit iusto quasi! Vitae ut explicabo dignissimos praesentium eius!</p>
+                <aside>
+                    <p>Artigo publicado por: José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <span>MateusTama</span></p>
+    </footer>
+</body>
+</html>
