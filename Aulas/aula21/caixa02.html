@@ -28,7 +28,8 @@
         header > nav > a {
             text-decoration: none;
             color: white;
-            margin: 30px;
+            margin-right: 30px;
+            margin-left: 30px;
             font-weight: bold;
         }
 
@@ -46,17 +47,25 @@
             text-align: justify;
         }
 
+        /* PARÁGRAFO DENTRO DO FOOTER INCREMENTA BORDA EM 16PX COM O PADDING > 0PX */
         footer{
+            padding: 8px;
             background-color: black;
             text-align: center;
         }
         footer p{
-            padding: 8px;
+            margin: 0px;
             color: white;
         }
 
         footer > p > span{
             font-weight: bold;
+        }
+
+        /* Não recomendado para H1 */
+        main > section > h2 {
+            background-color: lightblue;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.489);
         }
     </style>
 </head>
