@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img {
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolor aspernatur numquam beatae, unde velit amet sequi porro distinctio, recusandae aut quas blanditiis provident illo ut odit ipsum totam laboriosam!Lorem</p>
+        <picture>
+            <!-- Img = imagem padrão, source para imagens a partir de uma largura -->
+            <source media="(max-width: 600px)" srcset="../imagens/irina-blok-pq.jpg"> 
+            <img src="../imagens/irina-blok.jpg" alt="Criadora do Android">
+        </picture>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta dolorum, magni quas repellendus nam, eius voluptates aliquam aperiam ullam sequi quos enim quis commodi. Architecto, quis! Ducimus quidem esse molestiae?</p>
+    </main>
+</body>
+</html>
