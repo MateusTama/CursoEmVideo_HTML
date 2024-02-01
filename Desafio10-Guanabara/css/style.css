@@ -114,14 +114,46 @@ main {
     border-bottom-right-radius: 10px;
 }
 
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+/* Padrão = 1.5em */
 main h1 {
     color: var(--cor06);
     font-family: var(--fonte-android);
 
 }
 
+/* Padrão = 1.5em */
 main h2 {
     font-family: var(--fonte-android);
+    color: var(--cor05);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor02), transparent);
+    text-indent: 8px;
+}
+
+main a {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: var(--cor02);
+    color: var(--cor06);
+    padding: 2px 6px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor05);
+}
+
+main strong {
+    font-weight: bold;
+    color: var(--cor05);
 }
 
 main img {
@@ -131,7 +163,7 @@ main img {
 /* Imagem do Bugdroid */
 /* Imagem por padrão não é block */
 main img.pequena {
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
