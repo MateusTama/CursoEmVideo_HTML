@@ -81,6 +81,7 @@ header > p{
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
+    margin-bottom: 30px;
     /* Sombra no texto */
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
@@ -92,7 +93,7 @@ nav {
 }
 
 nav > a {
-    color: white;
+    color: var(--cor02);
     padding: 10px;
     text-decoration: none;
     border-radius: 5px;
@@ -174,6 +175,22 @@ main img.pequena {
     max-width: 350px;
     display: block;
     margin: auto;
+}
+
+div.video{
+    background-color: var(--cor06);
+    padding: 20px;
+    margin: 0px -20px 30px -20px;
+    position: relative;
+    padding-bottom: 56.5%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 aside {
