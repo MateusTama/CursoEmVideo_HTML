@@ -69,6 +69,7 @@ header > h1{
     /* em = em relação ao tamanho original */
     font-size: 3em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.244);
+    font-weight: normal;
 }
 
 header > p{
@@ -131,7 +132,8 @@ main p {
 main h1 {
     color: var(--cor06);
     font-family: var(--fonte-android);
-
+    font-weight: normal;
+    font-size: 1.8em;
 }
 
 /* Padrão = 1.5em */
@@ -141,6 +143,7 @@ main h2 {
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor02), transparent);
     text-indent: 8px;
+    font-weight: normal;
 }
 
 main a {
